@@ -334,8 +334,8 @@
 										effect: "explode",
 										duration: 920
 									},
-									height:650,
-									width:990
+									height:750,
+									width:1280
 								});
 									
 					  //2. canvas 被拖动，重新设置画板大小（因为拖动是css效果，而实际画板大小是width 和height属性）				
