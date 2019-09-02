@@ -15,7 +15,13 @@
       }
     </style>
 
-    <script>
+
+  </head>
+<body style="text-align: center">
+    <h1>Hello World!</h1>
+    <canvas height="500" width="500" style="text-align: center">
+    </canvas>
+	    <script>
 var b = document.body;
 var c = document.getElementsByTagName('canvas')[0];
 var a = c.getContext('2d');
@@ -50,10 +56,5 @@ function p(a,b,c){
 }
 var draw = setInterval('for(i=0;i < 1e4;i++)if(s=p(R(),R(),i%46/.74)){z=s[2];x=~~(s[0]*f/z-h);y=~~(s[1]*f/z-h);if(!m[q=y*f+x]|m[q]>z)m[q]=z,a.fillStyle="rgb("+~(s[3]*h)+","+~(s[4]*h)+","+~(s[3]*s[3]*-80)+")",a.fillRect(x,y,1,1)}',0);
     </script>
-  </head>
-  <body>
-	  <canvas id = "">
-	  
-	  </canvas>
-  </body>
+</body>
 </html>
